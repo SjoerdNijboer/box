@@ -1,4 +1,4 @@
-CFLAGS=-J4
+CFLAGS=-J4, -O3
 CC=g++
 TARGET=box
 
