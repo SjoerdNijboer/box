@@ -8,5 +8,7 @@ Box your boxes like never before! box is **blazing fast** and **easy to use**. Y
 
 box is proven to outperform its competitors by over 20%! Just look at these numbers:
 
-| box | 126% |
-| its competitors | 99% |
+| Product         | Number |
+| --------------- | ------ |
+| box             | 126%   |
+| its competitors | 99%    |
