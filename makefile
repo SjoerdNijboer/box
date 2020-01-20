@@ -1,8 +1,12 @@
-box: box.cpp
-	g++ -J4 -o box box.cpp
+CFLAGS=-J4
+CC=g++
+TARGET=box
+
+$(TARGET): box.cpp
+	$(CC) $(CFLAGS) -o $(TARGET) box.cpp
 	
 clean_box:
-	rm ./box
+	rm ./$(TARGET)
 
 run:
-	./box
+	./$(TARGET)
