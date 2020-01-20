@@ -1,3 +1,3 @@
 # box
 
-Now with unnesessarily complicated makefile!
+Now with -O3 optimization!
