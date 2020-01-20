@@ -1,3 +1,3 @@
 # box
 
-Now with multithreadding support!
+Now with unnesessarily complicated makefile!
