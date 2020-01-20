@@ -1,0 +1,23 @@
+# This workflow simply builds box on pushes.
+name: "Build"
+on: push
+
+jobs:
+    build-ubuntu:
+        # This job builds box on Ubuntu.
+        name: "Build - Ubuntu"
+        runs-on: ubuntu-latest
+        steps:
+        - name: "Checkout the Repo"
+          uses: actions/checkout@v2
+        - name: "Make box"
+          run: "make box"
+    build-macos:
+        # This job builds box on macOS.
+        name: "Build - macOS"
+        runs-on: macos-latest
+        steps:
+        - name: "Checkout the Repo"
+          uses: actions/checkout@v2
+        - name: "Make box"
+          run: "make box"
